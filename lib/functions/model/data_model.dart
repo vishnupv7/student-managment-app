@@ -18,6 +18,10 @@ class StudentModel{
   final String image;
   
 
+
+
+
+
   StudentModel( {required this.name, this.id, required this.image,  required this.age, required this.phonenumber, required this.guardian, });
   
 

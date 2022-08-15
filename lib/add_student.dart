@@ -315,6 +315,8 @@ class _AddStudentState extends State<AddStudent> {
     imagePath = image.path;
     final imageTemp = File(imagePath);
     setState(() {
+
+      
       _image = imageTemp;
      
     });
